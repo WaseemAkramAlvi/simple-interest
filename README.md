@@ -1,24 +1,20 @@
 # Simple Interest Calculator
 
-This script calculates simple interest using a shell script.
+This is a simple web-based calculator that computes the simple interest based on user inputs.
 
-## Usage
-```bash
-bash simple-interest.sh
+## How to Use
+1. Enter the principal amount.
+2. Enter the rate of interest.
+3. Enter the time (in years).
+4. Click "Calculate" to see the result.
 
-#### **Task 4: CODE_OF_CONDUCT.md (2 pts)**
-- Use GitHub’s default [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
-- Create a file named `CODE_OF_CONDUCT.md` and paste the content.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-#### **Task 5: CONTRIBUTING.md (2 pts)**
-- Create a `CONTRIBUTING.md` file with clear instructions for contributing.
+## License
+This project is licensed under the Apache 2.0 License.
 
-Example:
-```markdown
-# Contributing Guidelines
-
-Thank you for contributing! Please follow the process:
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Submit a pull request.
+## Screenshot
+![App Screenshot](screenshot.jpg)
