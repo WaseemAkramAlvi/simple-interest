@@ -17,6 +17,4 @@ This is a simple web-based calculator that computes the simple interest based on
 This project is licensed under the Apache 2.0 License.
 
 ## Screenshot
-![App Screenshot](screenshot.png)
-
-![App Screenshot](screenshot.png)
+![App Screenshot](screenshot.jpg)
