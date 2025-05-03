@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Interest Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background: #f0f8ff;
+    }
+    input, button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+    }
+    #result {
+      font-size: 20px;
+      margin-top: 20px;
+      color: #008000;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple Interest Calculator</h1>
+  <p>
+    Principal: <input type="number" id="principal" placeholder="Enter principal" /><br />
+    Rate (%): <input type="number" id="rate" placeholder="Enter rate" /><br />
+    Time (years): <input type="number" id="time" placeholder="Enter time" /><br />
+    <button onclick="calculateInterest()">Calculate</button>
+  </p>
+  <div id="result"></div>
+
+  <script>
+    function calculateInterest() {
+      const p = parseFloat(document.getElementById('principal').value);
+      const r = parseFloat(document.getElementById('rate').value);
+      const t = parseFloat(document.getElementById('time').value);
+      if (isNaN(p) || isNaN(r) || isNaN(t)) {
+        alert("Please enter valid numbers in all fields.");
+        return;
+      }
+      const interest = (p * r * t) / 100;
+      document.getElementById('result').innerText = `Simple Interest: ${interest}`;
+    }
+  </script>
+</body>
+</html>
