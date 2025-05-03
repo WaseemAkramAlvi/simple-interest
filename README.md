@@ -1,28 +1,34 @@
-# Simple Interest Calculator
+4. Click **Commit new file**
 
-This script calculates simple interest using a shell script.
+✅ **Full marks (2 pts)** if:
+- File exists
+- Proper content is added
 
-## Usage
-```bash
-bash simple-interest.sh
+---
 
-#### **Task 4: CODE_OF_CONDUCT.md (2 pts)**
-- Use GitHub’s default [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
-- Create a file named `CODE_OF_CONDUCT.md` and paste the content.
+### ✅ **Task 4: Add CODE_OF_CONDUCT.md File (2 pts)**
 
-#### **Task 5: CONTRIBUTING.md (2 pts)**
-- Create a `CONTRIBUTING.md` file with clear instructions for contributing.
+**Steps:**
+1. Create new file named: `CODE_OF_CONDUCT.md`
+2. Copy content from [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+3. Paste it and **Commit**
 
-Example:
+✅ **Full marks (2 pts)** if:
+- File exists with standard content
+
+---
+
+### ✅ **Task 5: Add CONTRIBUTING.md File (2 pts)**
+
+**Steps:**
+1. Create new file: `CONTRIBUTING.md`
+2. Paste this:
 ```markdown
 # Contributing Guidelines
 
-Thank you for contributing! Please follow the process:
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Submit a pull request.
-git add README.md
-git commit -m "Fixed typo in README"
-git checkout main
-git merge bug-fix-typo
+Thank you for contributing! Please:
+1. Fork the repo
+2. Create a branch
+3. Make changes
+4. Commit & push
+5. Create a pull request
