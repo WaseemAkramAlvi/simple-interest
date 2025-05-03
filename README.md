@@ -22,3 +22,7 @@ Thank you for contributing! Please follow the process:
 2. Create a new branch.
 3. Commit your changes.
 4. Submit a pull request.
+git add README.md
+git commit -m "Fixed typo in README"
+git checkout main
+git merge bug-fix-typo
